@@ -29,6 +29,12 @@ git log <filename>
 # or
 git log
 ```
+- View diff
+```bash
+git diff <commit-tag-1> <commit-tag-2>
+# Example
+git diff aca9c0f e90f25e
+```
 
 - View commits log
 ```bash
