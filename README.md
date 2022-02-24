@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Re-learning-git-and-github
 I'm relearning and implementing a simple web app
 
@@ -69,12 +68,4 @@ git pull origin main --allow-unrelated-histories
 # Finally, now we can do git push to save
 # changes from our local repository on GitHub: 
 git push origin master
-=======
-# Re:Learning Git and Github
-
-## Commands
-- remove cached file:    
-```bash
-git rm --cached main.py
->>>>>>> aca9c0f (adding main.py and README.md files)
 ```
