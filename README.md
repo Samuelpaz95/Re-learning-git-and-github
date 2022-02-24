@@ -23,3 +23,13 @@ git config --global user.email "samuelpaz243@gmail.com"
 ```bash
 git rm --cached main.py
 ```
+<<<<<<< HEAD
+=======
+- View commits log
+```bash
+git log <filename>
+# or
+git log
+```
+
+>>>>>>> e90f25e (Added "git log" command to notes in README.md)
