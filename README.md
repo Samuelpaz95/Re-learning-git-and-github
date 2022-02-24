@@ -23,6 +23,12 @@ git config --global user.email "samuelpaz243@gmail.com"
 ```bash
 git rm --cached main.py
 ```
+- View commits log
+```bash
+git log <filename>
+# or
+git log
+```
 
 - View commits log
 ```bash
