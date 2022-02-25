@@ -23,8 +23,7 @@ git config --global user.email "samuelpaz243@gmail.com"
 ```bash
 git rm --cached main.py
 ```
-<<<<<<< HEAD
-=======
+
 - View commits log
 ```bash
 git log <filename>
@@ -38,4 +37,11 @@ git diff <commit-tag-1> <commit-tag-2>
 git diff aca9c0f e90f25e
 ```
 
->>>>>>> e90f25e (Added "git log" command to notes in README.md)
+- Go back in time
+```bash
+# reset
+git reset <commit-tag>
+# reset hard
+git reset <commit-tag> --hard # this delete the current version and it go to a previous version (commit-tag)
+# checkout
+```
