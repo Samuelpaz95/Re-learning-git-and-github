@@ -43,5 +43,7 @@ git diff aca9c0f e90f25e
 git reset <commit-tag>
 # reset hard
 git reset <commit-tag> --hard # this delete the current version and it go to a previous version (commit-tag)
-# checkout
+# checkout}
+git checkout <commit-tag> README.md # get from previous commit and replace to a file
+git checkout master README.md # get from a branch and replace to a file
 ```
