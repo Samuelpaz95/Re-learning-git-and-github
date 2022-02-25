@@ -19,7 +19,7 @@ git config --global user.email "samuelpaz243@gmail.com"
 ```
 
 ## Commands
-- remove cached file:    
+- remove cached file:
 ```bash
 git rm --cached main.py
 ```
