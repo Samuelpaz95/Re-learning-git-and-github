@@ -67,3 +67,7 @@ git pull origin main --allow-unrelated-histories
 # changes from our local repository on GitHub: 
 git push origin master
 ```
+- View commits tree
+```bash
+git log --all --graph --decorate --oneline
+```
