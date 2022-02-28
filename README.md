@@ -47,3 +47,25 @@ git reset <commit-tag> --hard # this delete the current version and it go to a p
 git checkout <commit-tag> README.md # get from previous commit and replace to a file
 git checkout master README.md # get from a branch and replace to a file
 ```
+
+- connect to a remote repository
+```bash
+# First: Save the GitHub repository URL
+# with the original name
+git remote add origin URL
+
+# Second: Verify that the URL has been saved
+# correctly:
+git remote
+git remote -v
+
+# Third: Fetch the version from the remote repository and
+# merge to create a commit with the files
+# from both sides. We can use git fetch and git merge
+# or just the git pull with the --allow-unrelated-histories flag:
+git pull origin main --allow-unrelated-histories
+
+# Finally, now we can do git push to save
+# changes from our local repository on GitHub: 
+git push origin master
+```
