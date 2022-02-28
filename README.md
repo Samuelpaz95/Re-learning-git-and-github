@@ -25,24 +25,23 @@ git rm --cached main.py
 ```
 - View commits log
 ```bash
-git log <filename>
-# or
+git log [filename>] or
 git log
 ```
 - View diff
 ```bash
-git diff <commit-tag-1> <commit-tag-2>
+git diff [commit-tag]1> [commit-tag]2>
 # Example
 git diff aca9c0f e90f25e
 ```
 - Go back in time
 ```bash
 # reset
-git reset <commit-tag>
+git reset [commit-tag]
 # reset hard
-git reset <commit-tag> --hard # this delete the current version and it go to a previous version (commit-tag)
+git reset [commit-tag] --hard # this delete the current version and it go to a previous version (commit-tag)
 # checkout}
-git checkout <commit-tag> README.md # get from previous commit and replace to a file
+git checkout [commit-tag] README.md # get from previous commit and replace to a file
 git checkout master README.md # get from a branch and replace to a file
 ```
 
@@ -70,4 +69,9 @@ git push origin master
 - View commits tree
 ```bash
 git log --all --graph --decorate --oneline
+```
+- Create tags
+```bash
+# create
+git tag -a [tag-name] -m "message" [commit-tag]
 ```
